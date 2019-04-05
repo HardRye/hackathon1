@@ -1,4 +1,16 @@
 /*
    Import partials below
 */
-@import './normalize';
+@import "./normalize";
+
+//  some global tag settings
+@import "./base";
+
+// importing global variables
+@import "./variables";
+
+// importing components - general classes
+@import "./components/comp-style";
+
+// import blocks
+@import "./blocks/blocks-style";
