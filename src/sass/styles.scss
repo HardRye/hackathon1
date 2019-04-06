@@ -5,9 +5,10 @@
  
 
 @import "./fonts";
-
-// importing global variables
+ 
 @import "./variables";
+@import "./placeholders";
+@import "./mixins";
 
 // importing components - general classes
 @import "./components/comp-style";
