@@ -1,0 +1,82 @@
+.block-3{
+    &_headline{
+        @extend %text-section-title;
+        width: 185px;
+        letter-spacing: -2px;
+        text-transform: none;
+        &:last-of-type{
+            width: 225px;
+        }
+
+    }
+    &_headline-2{
+        width: 260px;
+        @extend %text1420;
+        @extend %acrom-extrabold;
+        letter-spacing: -1px;
+        margin-top: 20px;
+        }
+    &_numbers{
+        @extend %acrom-bold;
+        @extend %text3025;
+        color: $skyblue;
+        letter-spacing: -1px;
+        &-2{
+            @extend %text2525;
+            @extend %acrom-bold;
+            color: $skyblue;
+            letter-spacing: -1px;
+        }
+    }
+    &_text{
+        @extend %acrom-regular;
+        @extend %text1420;
+        letter-spacing: -1px;
+        position: relative;
+    }
+    &_text-2{
+        @extend %text1011;
+        @extend %acrom-regular;
+    }
+    &_headline-3{
+        @extend %acrom-bold;
+        @extend %text1420;
+        letter-spacing: -1px;
+        width: 225px;
+        margin-top: 20px;
+    }
+    &_list-2{
+        display: flex;
+        justify-content: space-between;
+        margin: 10px auto;
+    }
+    &_list-3{
+        width: 225px;
+        margin-right: 0px;
+        margin-left: auto;
+    }
+    &_items{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        &-2{
+            width: 110px;
+            @extend %text2525;
+        }
+    }
+    
+}
+.mtop15{
+    margin-top: 15px;
+}
+.mtop10{
+    margin-top: 10px;
+}
+.before:before{
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background-color: $skyblue;
+    left: -35px;
+}
