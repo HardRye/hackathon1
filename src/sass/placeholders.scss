@@ -63,7 +63,18 @@
     line-height: 60px; 
   }
 }
+%text-section-button {  
+  font-size: 14px;
+  line-height: 1.2; 
 
+  @media (min-height: 768px) {
+    font-size: 18px;
+  }
+
+  @media (min-height: 1200px) {
+    font-size: 30px;
+  }
+}
 %text-section-subtitle {  
   font-size: 16px;
   line-height: 1.25;
@@ -78,7 +89,20 @@
     line-height: 1.167;
   }
 }
+%text-section {  
+  font-size: 14px;
+  line-height: 1.571;
 
+  @media (min-height: 768px) {
+    font-size: 16px;
+    line-height: 1.375;
+  }
+
+  @media (min-height: 1200px) {
+    font-size: 18px;
+    line-height: 1.944;
+  }
+}
 %text-footer-link {
   font-size: 20px;
   line-height: 3;

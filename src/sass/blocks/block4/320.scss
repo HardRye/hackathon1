@@ -1,23 +1,37 @@
 .block4 {
     background-color: #181c27;
-    background-image: url(../images/block4/blok4-background_IMG.png);
+   /*  background-image: url(../images/block4/blok4-background_IMG.png);
     background-position: center right;
     background-repeat: no-repeat; 
     background-size: contain;
 
     @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
         background-image: url(../images/block4/blok4-background_IMG@2x.png);
-    }
+    } */
 }
 .block4__wrapper {
     
 }
 .block4__title {
-    color: #00eaff;
+    @extend: %acrom-extrabold;
+    @extend: %text-section-title;
+    color: $skyblue;
 }
 .block4__subtitle {
-
+    @extend: %acrom-extrabold;
+    @extend: %text-section-subtitle;
+    color: $white;
 }
 .block4__text {
-
+    @extend: %text-section;
+    @extend: %acrom-regular;
+    color: $white;
+    $--bold {
+        @extend: %acrom-extrabold;
+    }
+}
+.block4__button {
+    @extend: %text-section-button;
+    @extend: %acrom-extrabold;
+    
 }
