@@ -33,10 +33,11 @@
     position: relative;
     @extend %text-section-p;
     @extend %acrom-regular;
-    color: $white;
+    color: #dbdbdb;
 }
 .block4__text--bold {
     font-weight: bold;
+    color: $white;
 }
 .block4__text::before {
     content: "";
