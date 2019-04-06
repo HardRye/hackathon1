@@ -1,5 +1,15 @@
 @media (min-width: 1200px) {
-
+    .block-3{
+        &_headline{
+            width: 455px;
+            font-size: 48px;
+            line-height: 60px;
+            margin: 0px auto 0px 0px;
+        }
+        &_outwrapper{
+            margin: 0px auto 0px 0px;
+        }
+    }
 
  
 }

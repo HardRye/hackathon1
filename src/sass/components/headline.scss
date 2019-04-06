@@ -13,10 +13,12 @@
   } 
 
   &::before {
-    content: "\005b  ";  
+    content: "\005b  "; 
+    font-size: inherit; 
   }
 
   &::after{
     content: " \005d";
+    font-size: inherit;
   }
 }
