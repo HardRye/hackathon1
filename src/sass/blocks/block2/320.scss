@@ -4,19 +4,20 @@
   padding-top: 36px;
 
   &__reset {
-      padding-left: 0;
-      padding-right: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
 .block2__title {
- margin: 0 auto;
+  margin: 0 auto;
   color: $grey-text-bg;
   text-align: center;
   text-transform: none;
   margin-bottom: 36px;
   max-width: 226px;
-  
+  letter-spacing: -2px;
+
 }
 
 .block2__list {
@@ -28,50 +29,49 @@
   flex-direction: column;
   width: 100%;
   align-items: center;
+  margin-bottom: 34px;
 }
 
 
 
 .block2__list-element {
   flex-basis: 225px;
-    width: 225px;
-    height: 230px;
-    background-color: #fff;
-    box-shadow: -16px 10px 0 0 rgba(0,0,0,.16);
-    margin-bottom: 40px;
-    display: block;
-    counter-increment: count-box;
-    position: relative;
+  width: 225px;
+  height: 230px;
+  background-color: #fff;
+  box-shadow: -16px 10px 0 0 rgba(0, 0, 0, .16);
+  margin-bottom: 40px;
+  display: block;
+  counter-increment: count-box;
+  position: relative;
 
   &:last-child {
     margin-bottom: 0;
   }
 
   &::before {
-        content: "";
-        background-color: rgb(0, 234, 255);
-        position: absolute;
-        left: -12px;
-        width: 60px;
-        height: 2px;
-        top: 27px;
-      }
+    content: "";
+    background-color: rgb(0, 234, 255);
+    position: absolute;
+    left: -12px;
+    width: 60px;
+    height: 2px;
+    top: 27px;
+  }
 
-      &::after {
-        display: block;
-        content: "0"counter(count-box);
-        position: absolute;
-        right: 0;
-        top: 0;
-        transform: translateY(-50%);
-        color: $white;
-        font-family: "Montserrat";
-      }
+  &::after {
+    display: block;
+    content: "0"counter(count-box);
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translateY(-60%);
+    color: $white;
+    @extend %montserrat-bold;
+    @extend %text-counter-b2;
+  }
 
 }
-
-
-
 
 .block2__list-text {
   @extend %text-section-subtitle;
@@ -83,3 +83,25 @@
     @extend %acrom-bold;
   }
 }
+
+.block2__button {
+    @include orange-button (14px, 1.429, 28px, 20px);
+    background-color: $orange-btn;
+color: $white;
+@extend %acrom-bold;
+text-transform: uppercase; 
+margin: 0 auto;
+
+
+
+    
+    box-shadow: 0px 2px 10px 0px rgba(255, 107, 8, 0.59);
+   
+    
+    
+    width: 225px;
+    height: 106px;
+    
+  
+}
+
