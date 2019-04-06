@@ -1,0 +1,40 @@
+.header{
+    background-color: #181c27;
+}
+.header_logo{
+    padding-bottom: 25px;
+}
+.header__text{
+    width: 240px;
+}
+.header__text--one{
+    @extend%acrom-bold;
+    @extend%text1421;
+    padding-bottom: 20px;
+    color: $white;
+}
+
+.header__text--two{
+    @extend%acrom-bold;
+    @extend%text-footer-link;
+    color: $skyblue;
+    padding-bottom: 24px;
+}
+
+.header__text--three{
+    @extend%acrom-bold;
+    @extend%text1421;
+    padding-bottom: 20px;
+    color: $white;
+    padding-bottom: 22px;
+}
+.header__text--four{
+    @extend%acrom-bold;
+    @extend%text1421;
+    color: $orange;
+}
+
+.header__text--five{
+    @extend%text-footer-link;
+    padding-bottom: 10px;
+}
