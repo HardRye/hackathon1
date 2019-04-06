@@ -1,13 +1,16 @@
 .block-3{
+    margin: 30px auto;
     &_headline{
         @extend %text-section-title;
         width: 185px;
         letter-spacing: -2px;
         text-transform: none;
-        &:last-of-type{
-            width: 225px;
-        }
-
+            &-ew{
+                @extend %text-section-title;
+                width: 225px;
+                letter-spacing: -2px;
+                text-transform: none    
+            }
     }
     &_headline-2{
         width: 260px;
@@ -94,4 +97,7 @@
     height: 12px;
     background-color: $skyblue;
     left: -35px;
+}
+.pseudo_mb{
+    display: none;
 }
