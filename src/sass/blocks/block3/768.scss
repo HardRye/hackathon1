@@ -1,5 +1,15 @@
 @media (min-width: 768px) {
-
+    .block-3{
+        &_imagewrapper{
+            background-image: url(../../../images/block-3_map_blue.png);
+        }
+        &_headline{
+            @extend %acrom-extrabold;
+            @extend %text3040;
+            margin: 0px auto;
+        }
+    }
+    
 
  
 }

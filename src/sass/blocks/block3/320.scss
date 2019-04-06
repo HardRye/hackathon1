@@ -33,6 +33,7 @@
         @extend %text1420;
         letter-spacing: -1px;
         position: relative;
+        width: 215px;
     }
     &_text-2{
         @extend %text1011;
@@ -44,6 +45,9 @@
         letter-spacing: -1px;
         width: 225px;
         margin-top: 20px;
+    }
+    &_list{
+        position: relative;
     }
     &_list-2{
         display: flex;
@@ -63,6 +67,17 @@
             width: 110px;
             @extend %text2525;
         }
+    }
+    &_imagewrapper{
+        background-image: url(../../../images/block-3_map.png);
+        width: 310px;
+        height: 195px;
+        bottom: -77px;
+        left: -40px;
+        z-index: -1;
+        position: absolute;
+        background-repeat: no-repeat;
+        background-size: contain;
     }
     
 }
