@@ -66,22 +66,33 @@
   padding-left: 20px;
   padding-right: 20px;
   z-index: 0;
+}
+
+.block5__awards-image {
+  position: absolute; 
+  content: '';
+  bottom: 30px;
+  background-position: center; 
+  background-repeat: no-repeat;
 
   &--first {
-    position: absolute; 
     background-image: url(../images/block5/award1_320@1x.png);
-    background-position: center; 
-    background-repeat: no-repeat;
   }
 }
 
 .block5__awards-subtitle {
+  @extend %acrom-bold;
   @extend %text-article-title;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .block5__awards-text {
-  
+  @extend %acrom-regular;
+  @extend %text1421;
+}
+
+.block5__awards-text-bold {
+  @extend %acrom-bold;
 }
 
 .block5__awards-underlay {
