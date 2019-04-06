@@ -18,6 +18,11 @@
   font-weight: 300;
 }
 
+%montserrat-bold {
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 700;
+}
+
 /* TEXT PLACEHOLDERS*/
 %text1420 {
   font-size: 14px;
@@ -83,8 +88,23 @@
     line-height: 60px;
   }
 }
+%text-section-button {  
+  font-size: 14px;
+  line-height: 1.2; 
 
+<<<<<<< HEAD
 %text-section-subtitle {
+=======
+  @media (min-height: 768px) {
+    font-size: 18px;
+  }
+
+  @media (min-height: 1200px) {
+    font-size: 30px;
+  }
+}
+%text-section-subtitle {  
+>>>>>>> b559721f3f3322b2db50926ef97cedcf178ae093
   font-size: 16px;
   line-height: 1.25;
 
@@ -98,7 +118,20 @@
     line-height: 1.167;
   }
 }
+%text-section-p {  
+  font-size: 14px;
+  line-height: 1.571;
 
+  @media (min-height: 768px) {
+    font-size: 16px;
+    line-height: 1.375;
+  }
+
+  @media (min-height: 1200px) {
+    font-size: 18px;
+    line-height: 1.944;
+  }
+}
 %text-footer-link {
   font-size: 20px;
   line-height: 3;
