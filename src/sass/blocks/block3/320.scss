@@ -1,102 +1,124 @@
-.block-3{
-    margin: 30px auto;
-    &_headline{
-        @extend %text-section-title;
-        width: 185px;
-        letter-spacing: -2px;
-        text-transform: none;
-            &-ew{
-                @extend %text-section-title;
-                width: 225px;
-                letter-spacing: -2px;
-                text-transform: none    
-            }
+.block-3 {
+  margin: 30px auto;
+
+  &_headline {
+    @extend %text-section-title;
+    width: 185px;
+    letter-spacing: -2px;
+    text-transform: none;
+
+    &-ew {
+      @extend %text-section-title;
+      width: 225px;
+      letter-spacing: -2px;
+      text-transform: none
     }
-    &_headline-2{
-        width: 260px;
-        @extend %text1420;
-        @extend %acrom-extrabold;
-        letter-spacing: -1px;
-        margin-top: 20px;
-        }
-    &_numbers{
-        @extend %acrom-bold;
-        @extend %text3025;
-        color: $skyblue;
-        letter-spacing: -1px;
-        &-2{
-            @extend %text2525;
-            @extend %acrom-bold;
-            color: $skyblue;
-            letter-spacing: -1px;
-        }
+  }
+
+  &_headline-2 {
+    width: 260px;
+    @extend %text1420;
+    @extend %acrom-extrabold;
+    letter-spacing: -1px;
+    margin-top: 20px;
+  }
+
+  &_numbers {
+    @extend %acrom-bold;
+    @extend %text3025;
+    color: $skyblue;
+    letter-spacing: -1px;
+
+    &-2 {
+      @extend %text2525;
+      @extend %acrom-bold;
+      color: $skyblue;
+      letter-spacing: -1px;
     }
-    &_text{
-        @extend %acrom-regular;
-        @extend %text1420;
-        letter-spacing: -1px;
-        position: relative;
-        width: 215px;
+  }
+
+  &_text {
+    @extend %acrom-regular;
+    @extend %text1420;
+    letter-spacing: -1px;
+    position: relative;
+    width: 215px;
+  }
+
+  &_text-2 {
+    @extend %text1011;
+    @extend %acrom-regular;
+  }
+
+  &_headline-3 {
+    @extend %acrom-bold;
+    @extend %text1420;
+    letter-spacing: -1px;
+    width: 225px;
+    margin-top: 20px;
+  }
+
+  &_list {
+    position: relative;
+  }
+
+  &_list-2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+  }
+
+  &_list-3 {
+    width: 225px;
+    margin-right: 0px;
+    margin-left: auto;
+  }
+
+  &_items {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+    &-2 {
+      width: 110px;
+      @extend %text2525;
     }
-    &_text-2{
-        @extend %text1011;
-        @extend %acrom-regular;
-    }
-    &_headline-3{
-        @extend %acrom-bold;
-        @extend %text1420;
-        letter-spacing: -1px;
-        width: 225px;
-        margin-top: 20px;
-    }
-    &_list{
-        position: relative;
-    }
-    &_list-2{
-        display: flex;
-        justify-content: space-between;
-        margin: 10px auto;
-    }
-    &_list-3{
-        width: 225px;
-        margin-right: 0px;
-        margin-left: auto;
-    }
-    &_items{
-        display: flex;
-        flex-direction: column;
-        margin-top: 20px;
-        &-2{
-            width: 110px;
-            @extend %text2525;
-        }
-    }
-    &_imagewrapper{
-        background-image: url(../../../images/block-3_map.png);
-        width: 310px;
-        height: 195px;
-        bottom: -77px;
-        left: -40px;
-        z-index: -1;
-        position: absolute;
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
-    
-}
-.mtop15{
-    margin-top: 15px;
-}
-.mtop10{
-    margin-top: 10px;
-}
-.before:before{
-    content: "";
+  }
+
+  &_imagewrapper {
+    background-image: url(../../../images/block-3_map.png);
+    width: 310px;
+    height: 195px;
+    bottom: -77px;
+    left: -40px;
+    z-index: -1;
     position: absolute;
-    width: 12px;
-    height: 12px;
-    background-color: $skyblue;
-    left: -35px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+}
+
+.mtop15 {
+  margin-top: 15px;
+}
+
+.mtop10 {
+  margin-top: 10px;
+}
+
+.before:before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background-color: $skyblue;
+  left: -35px;
+}
+
+.desktop_only {
+  display: none;
+  width: 100%;
 }
 
 .desktop_only{
