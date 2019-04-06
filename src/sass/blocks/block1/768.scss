@@ -1,5 +1,18 @@
 @media (min-width: 768px) {
+  .block01 {
+      padding: 30px 65px;
+  }  
 
+  .block01--title {
+    font-size: 30px;
+    line-height: 1.25;
+    letter-spacing: -1px;
+  }
 
- 
+  .block01--item {
+    padding-left: 40px;
+    padding-bottom: 20px;  
+    font-size: 16px;
+    line-height: 1.375;
+  }
 }
