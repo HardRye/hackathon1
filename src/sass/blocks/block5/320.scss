@@ -40,6 +40,8 @@
 
 }
 
+
+// AWARDS STYLES
 .block5__awards {
   order: -1;
 }
@@ -133,3 +135,38 @@
       height: 408px;
     }
   }  
+
+  .block5__awards-overlay {
+    position: absolute;
+    top: 24px;
+    left: -13px;
+    width: 60px;
+    height: 2px;
+    background-color: $skyblue;
+    z-index:  2;
+  }
+// AWARDS STYLES END
+
+
+// TENDER STYLES 
+.block5__tender {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+
+  background-image: url(../images/block5/UN_logo_320@1x.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.block5__tender-subtitle {
+  @extend %acrom-extrabold;
+  @extend %text2430;
+  margin-bottom: 16px;
+}
+
+.block5__tender-text {
+  @extend %acrom-regular;
+  @extend %text1421;
+  color: $grey-text3;
+} 
