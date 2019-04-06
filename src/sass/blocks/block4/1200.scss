@@ -7,4 +7,13 @@
             background-image: url(../images/block4/blok4-background_desktop@2x.png);
         }
     }
+    .block4__wrapper {
+        padding-left: 390px;
+    }
+    .block4__button {
+        min-width: 690px;
+        min-height: 110px;
+        padding: 0px;
+        text-align: center; 
+    }
 }
