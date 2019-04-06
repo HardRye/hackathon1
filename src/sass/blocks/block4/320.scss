@@ -10,28 +10,45 @@
     } */
 }
 .block4__wrapper {
-    
+    padding-bottom: 38px;
 }
 .block4__title {
-    @extend: %acrom-extrabold;
-    @extend: %text-section-title;
+    @extend %acrom-extrabold;
+    @extend %text-section-title;
     color: $skyblue;
+    padding-bottom: 24px;
+    padding-top: 28px;
 }
 .block4__subtitle {
-    @extend: %acrom-extrabold;
-    @extend: %text-section-subtitle;
+    @extend %acrom-extrabold;
+    @extend %text-section-subtitle;
     color: $white;
+    margin-bottom: 50px;
+    padding-top: 36px;
 }
 .block4__text {
-    @extend: %text-section;
-    @extend: %acrom-regular;
+    position: relative;
+    @extend %text-section-p;
+    @extend %acrom-regular;
     color: $white;
-    $--bold {
-        @extend: %acrom-extrabold;
-    }
+}
+.block4__text::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    height: 3px;
+    top: -18px;
+    width: 60px;
+    background-color: $skyblue;
 }
 .block4__button {
-    @extend: %text-section-button;
-    @extend: %acrom-extrabold;
-    
+    @extend %text-section-button;
+    @extend %acrom-extrabold;
+    color: $white;
+    text-transform: uppercase;
+    background-color: $orange-btn;
+    outline: none;
+    overflow: hidden;
+    padding: 26px 16px;
+    text-align: center;
 }
