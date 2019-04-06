@@ -2,13 +2,13 @@
     background-image: url(../images/block4/blok4-background_IMG.png);
     background-position: center right;
     background-repeat: no-repeat; 
-    background-size: contain;
 
     @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
         background-image: url(../images/block4/blok4-background_IMG@2x.png);
     }
     background-color: #181c27;
     padding-bottom: 40px;
+    padding-top: 36px;
 }
 .block4__wrapper {
     text-align: left;
@@ -27,7 +27,6 @@
     @extend %text-section-subtitle;
     color: $white;
     margin-bottom: 50px;
-    padding-top: 36px;
 }
 .block4__text {
     position: relative;

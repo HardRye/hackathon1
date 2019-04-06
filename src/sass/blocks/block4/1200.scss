@@ -1,5 +1,10 @@
 @media (min-width: 1200px) {
-
-
- 
+    .block4 {
+        background-image: url(../images/block4/blok4-background_desktop.png);
+        background-position: center right;
+        background-repeat: no-repeat; 
+        @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+            background-image: url(../images/block4/blok4-background_desktop@2x.png);
+        }
+    }
 }

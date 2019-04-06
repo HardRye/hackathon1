@@ -53,12 +53,12 @@
   font-size: 20px;
   line-height: 30px; 
 
-  @media (min-height: 768px) {
+  @media (min-width: 768px) {
     font-size: 30px;
     line-height: 40px; 
   }
 
-  @media (min-height: 1200px) {
+  @media (min-width: 1200px) {
     font-size: 48px;
     line-height: 60px; 
   }
@@ -67,11 +67,11 @@
   font-size: 14px;
   line-height: 1.2; 
 
-  @media (min-height: 768px) {
+  @media (min-width: 768px) {
     font-size: 18px;
   }
 
-  @media (min-height: 1200px) {
+  @media (min-width: 1200px) {
     font-size: 30px;
   }
 }
@@ -79,12 +79,12 @@
   font-size: 16px;
   line-height: 1.25;
 
-  @media (min-height: 768px) {
+  @media (min-width: 768px) {
     font-size: 22px;
     line-height: 1.364;
   }
 
-  @media (min-height: 1200px) {
+  @media (min-width: 1200px) {
     font-size: 30px;
     line-height: 1.167;
   }
@@ -93,12 +93,12 @@
   font-size: 14px;
   line-height: 1.571;
 
-  @media (min-height: 768px) {
+  @media (min-width: 768px) {
     font-size: 16px;
     line-height: 1.375;
   }
 
-  @media (min-height: 1200px) {
+  @media (min-width: 1200px) {
     font-size: 18px;
     line-height: 1.944;
   }
