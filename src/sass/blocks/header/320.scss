@@ -1,40 +1,85 @@
-.header{
+header{
+    width: 320px;
+    margin: 0 auto;
     background-color: #181c27;
+}
+.header{
+    width: 260px;
+    margin: 0 auto;
 }
 .header_logo{
     padding-bottom: 25px;
 }
 .header__text{
-    width: 240px;
+    width: 260px;
 }
 .header__text--one{
     @extend%acrom-bold;
-    @extend%text1421;
-    padding-bottom: 20px;
+    @extend%text-header-14;
     color: $white;
+    padding-bottom: 20px;
+    
 }
 
 .header__text--two{
-    @extend%acrom-bold;
-    @extend%text-footer-link;
+    @extend%acrom-regular;
+    @extend%text-header-20;
     color: $skyblue;
     padding-bottom: 24px;
 }
 
 .header__text--three{
     @extend%acrom-bold;
-    @extend%text1421;
-    padding-bottom: 20px;
+    @extend%text-header-14;
     color: $white;
     padding-bottom: 22px;
 }
 .header__text--four{
     @extend%acrom-bold;
-    @extend%text1421;
+    @extend%text-header-14;
     color: $orange;
+    margin-bottom: 15px;
 }
 
 .header__text--five{
-    @extend%text-footer-link;
-    padding-bottom: 10px;
+    @extend%text-header-20;
+}
+.contact{
+    width: 260px;
+    background-color: $white;
+    margin-bottom: 10px;
+}
+.contact__title{
+    width: 225px;
+    @extend%acrom-extrabold;
+    @extend%text-header-16;
+    text-align: left;
+    padding: 15px 0 12px 20px;
+}
+.contact__text--one{
+    width: 225px;
+    @extend%acrom-light;
+    @extend%text-header-13;
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+.input{
+    @extend%flex-col;
+    width: 225px;
+    margin: 0 auto;
+}
+input{
+    @extend%input;
+}
+.contact__btn{
+    margin: 15px 0 25px 0;
+    @extend%btn;
+}
+.contact__text--two{
+    @extend%acrom-regular;
+    @extend%text-header-13;
+    padding-bottom: 30px;
+    color: $grey-text;
+    text-align: center;
 }
