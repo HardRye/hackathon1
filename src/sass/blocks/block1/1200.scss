@@ -1,5 +1,28 @@
 @media (min-width: 1200px) {
+    .block01 {
+        display: flex;
+    }
 
+    .block01--title, .block01--list {
+        display: inline-block;
+        box-sizing:border-box; 
+        width: 50%;
+    }
 
- 
+    .block01--title {
+        padding: 0 60px 0 15px;
+        font-size: 48px;
+        line-height: 1.33;
+        letter-spacing: -1px;
+    }
+
+    .block01--list {
+        padding: 0 15px;
+    }
+
+    .block01--item {
+        padding-bottom: 35px;
+        font-size: 18px;
+        line-height: 1.667;
+    }
 }
