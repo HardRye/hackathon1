@@ -1,0 +1,108 @@
+%acrom-regular {
+  font-family: 'Acrom',sans-serif;
+  font-weight: 400;
+}
+
+%acrom-bold {
+  font-family: 'Acrom',sans-serif;
+  font-weight: 700;
+}
+
+%acrom-extrabold {
+  font-family: 'Acrom',sans-serif;
+  font-weight: 800;
+}
+
+%acrom-light {
+  font-family: 'Acrom',sans-serif;
+  font-weight: 300;
+}
+
+/* TEXT PLACEHOLDERS*/
+%text1420 {  
+  font-size: 14px;
+  line-height: 20px; 
+}
+
+%text1421 {  
+  font-size: 14px;
+  line-height: 21px; 
+}
+
+%text1621 {  
+  font-size: 16px;
+  line-height: 21px; 
+}
+
+%text2430 {  
+  font-size: 24px;
+  line-height: 30px; 
+}
+
+%text-article-title {  
+  font-size: 18px;
+  line-height: 26px; 
+
+  @media (min-height: 1200px) {
+    font-size: 24px;
+    line-height: 30px; 
+  }
+}
+
+%text-section-title {  
+  font-size: 20px;
+  line-height: 30px; 
+
+  @media (min-height: 768px) {
+    font-size: 30px;
+    line-height: 40px; 
+  }
+
+  @media (min-height: 1200px) {
+    font-size: 48px;
+    line-height: 60px; 
+  }
+}
+
+%text-section-subtitle {  
+  font-size: 16px;
+  line-height: 1.25;
+
+  @media (min-height: 768px) {
+    font-size: 22px;
+    line-height: 1.364;
+  }
+
+  @media (min-height: 1200px) {
+    font-size: 30px;
+    line-height: 1.167;
+  }
+}
+
+%text-footer-link {
+  font-size: 20px;
+  line-height: 3;
+}
+
+%text-footer-decr {
+  font-size: 14px; 
+  line-height: 4.286;
+}
+
+%text-counter-b2 {
+  font-size: 50px;
+  line-height: 1.2;
+
+  @media (min-height: 768px) {
+    font-size: 70px; 
+  }
+
+  @media (min-height: 1200px) {
+    font-size: 150px; 
+  }
+}
+
+%text-counter-b5 {
+  font-size: 70px;
+  line-height: 1.2;
+}
