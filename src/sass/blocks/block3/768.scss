@@ -7,69 +7,79 @@
       width: 310px;
       height: 200px;
     }
-    &_outwrapper{
-        margin: 0px auto;
-        width: 700px;
-        height: 545px;
-        box-shadow: -20px 20px 8px 0 #ced1d3, 3px 8px 20px 0px #ced1d3;
+
+    &_outwrapper {
+      margin: 0px auto;
+      width: 700px;
+      height: 545px;
+      box-shadow: -20px 20px 8px 0 #ced1d3, 3px 8px 20px 0px #ced1d3;
     }
+
     &_headline {
       font-size: 30px;
       line-height: 40px;
       margin: 0px auto;
       width: 490px;
-      &-ew{
-          margin: 40px auto;
-          width: 575px;
-          font-size: 30px;
-          line-height: 40px;
+
+      &-ew {
+        margin: 40px auto;
+        width: 575px;
+        font-size: 30px;
+        line-height: 40px;
       }
-    
+
       &-2 {
         width: 400px;
         margin: 35px auto;
         text-align: center;
         font-size: 18px;
         line-height: 25px;
+        padding-top: 20px;
       }
     }
-    &_list{
-        display: flex;
-        flex-wrap: wrap;
-        width: 620px;
-        justify-content: space-between;
-        margin: 0px auto;
-            &-2{
-                width: 255px;
-                margin-left: 0px;
-                margin-right: auto;
-            }
-            &-3{
-                margin-left: 75px;
-                .block-3_text{
-                width: 400px;
-                font-size: 16px;
-                line-height: 22px;
-            }
-        }
-    }
-    &_salary{
-        margin-left: 64px;
+
+    &_list {
+      display: flex;
+      flex-wrap: wrap;
+      width: 620px;
+      justify-content: space-between;
+      margin: 0px auto;
+
+      &-2 {
         width: 255px;
-    }
-  
-    &_items{
-        width: 180px;
-    }
-    &_text{
-        width: inherit;
-        &-2{
-            margin-top: 5px;
+        margin-left: 0px;
+        margin-right: auto;
+      }
+
+      &-3 {
+        margin-left: 75px;
+
+        .block-3_text {
+          width: 400px;
+          font-size: 16px;
+          line-height: 22px;
         }
+      }
+    }
+
+    &_salary {
+      margin-left: 64px;
+      width: 255px;
+    }
+
+    &_items {
+      width: 180px;
+    }
+
+    &_text {
+      width: inherit;
+
+      &-2 {
+        margin-top: 5px;
+      }
     }
 
 
   }
 
 }
-

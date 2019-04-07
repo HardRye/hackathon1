@@ -2,13 +2,13 @@
     background-image: url(../images/block4/blok4-background_IMG.png);
     background-position: center right;
     background-repeat: no-repeat; 
-    background-size: contain;
 
     @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
         background-image: url(../images/block4/blok4-background_IMG@2x.png);
     }
     background-color: #181c27;
     padding-bottom: 40px;
+    margin-bottom: 36px;
 }
 .block4__wrapper {
     text-align: left;
@@ -27,16 +27,16 @@
     @extend %text-section-subtitle;
     color: $white;
     margin-bottom: 50px;
-    padding-top: 36px;
 }
 .block4__text {
     position: relative;
     @extend %text-section-p;
     @extend %acrom-regular;
-    color: $white;
+    color: $grey-text4;
 }
 .block4__text--bold {
     font-weight: bold;
+    color: $white;
 }
 .block4__text::before {
     content: "";

@@ -1,5 +1,31 @@
 @media (min-width: 1200px) {
-
-
- 
+    .block4 {
+        background-image: url(../images/block4/blok4-background_desktop.png);
+        background-position: center right;
+        background-repeat: no-repeat; 
+        @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+            background-image: url(../images/block4/blok4-background_desktop@2x.png);
+        }
+        padding-bottom: 115px;
+        margin-bottom: 100px;
+    }
+    .block4__flexwrapper {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    .block4__title {
+        max-width: 680px;
+        padding-bottom: 60px;
+    }
+    .block4__subtitle {
+        margin-bottom: 0px;
+    }
+    .block4__button {
+        min-width: 680px;
+        min-height: 110px;
+        padding: 0px;
+        text-align: center; 
+    }
 }
