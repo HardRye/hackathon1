@@ -40,6 +40,9 @@
     padding: 5px;
   }
 
+  &__partners-title {
+    padding-left: 16px;
+  }
 }
 
 
@@ -99,6 +102,7 @@
 .block5__awards-subtitle {
   @extend %acrom-extrabold;
   @extend %text-article-title;
+  max-width: 135px;
   margin-bottom: 15px;
   text-transform: uppercase;
 }
@@ -145,6 +149,7 @@
 // TENDER STYLES 
 .block5__tender { 
   margin-bottom: 40px;
+  padding: 0 16px;
 
   background-image: url(../images/block5/UN_logo_320@1x.png);
   background-position: center top;

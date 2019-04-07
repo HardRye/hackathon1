@@ -35,6 +35,7 @@
   .block5__tender {
     max-width: 364px;
     margin: 0 auto;
+    padding: 0;
 
     background-position: right top;
   }
@@ -42,6 +43,10 @@
   .block5__partners {
     max-width: 640px;
     margin: 0 auto;
+
+    &-title {
+      padding-left: 0;
+    }
   }
 
   .block5__partners-item {

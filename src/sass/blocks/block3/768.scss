@@ -1,5 +1,11 @@
 @media (min-width: 768px) {
   .block-3 {
+
+    &_salary {
+      padding-left: 0;
+      margin-bottom: 0;
+    }
+    
     &_imagewrapper {
       background-image: url(../../../images/block-3_map_blue.png);
       top: 185px;
@@ -44,6 +50,7 @@
       width: 620px;
       justify-content: space-between;
       margin: 0px auto;
+      padding-left: 0;
 
       &-2 {
         width: 255px;
