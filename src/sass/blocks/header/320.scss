@@ -37,6 +37,7 @@ header {
   @extend%text-header-20;
   color: $skyblue;
   padding-bottom: 24px;
+  letter-spacing: -1px;
 }
 
 .header__title--after {
@@ -84,25 +85,28 @@ header {
 .form__text {
   @extend%acrom-regular;
   @extend%text-header-13;
-
+  margin-bottom: 5px;
   text-align: left;
-}
+} 
 
 .input {
   @extend%flex-col;
+  @extend%text-header-14;
   margin: 0 auto;
 }
 
 input {
   @extend%input;
   @extend%acrom-regular;
-  @extend%text-header-14;
   color: $grey-input;
 }
 
 .form__btn {
   margin-top: 18px;
-  @extend%btn;
+  @extend %btn;
+  @extend %acrom-extrabold;
+  @extend %text-header-btn;
+  box-shadow: 0px 2px 10px 0px rgba(255, 107, 8, 0.59);
 
 &:focus {
     box-shadow: 0px 2px 10px 0px #ff6b08, 0px -2px 10px 0px #ff6b08;
@@ -118,6 +122,6 @@ input {
   @extend%text-header-13;
   color: $grey-text;
   text-align: center;
-  padding-bottom: 15px;
+  padding-bottom: 25px;
   margin-top: 10px;
 }

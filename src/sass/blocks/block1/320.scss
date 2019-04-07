@@ -1,6 +1,7 @@
 .block01 {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  // padding-top: 30px;
+  // padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .block01--title {
@@ -9,7 +10,7 @@
   @extend %acrom-bold;
   font-size: 20px;
   line-height: 1.5;
-  letter-spacing: -1px;
+  letter-spacing: -1.75px;
 }
 
 .block01--list {
@@ -26,17 +27,21 @@
   padding-left: 30px;
   padding-bottom: 10px;
   font-size: 14px;
-  line-height: 1.25;
+  line-height: 20px;
 
   &:before {
     position: absolute;
-    content: "\2192";
-    color: $skyblue;
-    font-weight: bold;
+    content: "";
     display: block;
     width: 17px;
-    height: 15px;
-    margin-bottom: 2px;
-    left: 0;
+    height: 15px; 
+    top: 0;
+    left: 0; 
+    margin-top: 4px;
+
+    background-image: url("../images/block1/arrow.png");  
+      // background-image: url("../images/block1/arrow.svg"); 
+    background-repeat: no-repeat
+    
   }
 }

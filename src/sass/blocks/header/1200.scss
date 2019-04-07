@@ -3,9 +3,10 @@
 width: 1200px;
 background-image: url(../images/header/bg_desktop@1x.png);
 margin-bottom: 130px;
+padding-bottom: 80px;
 }
 .header__logo{
-    padding-left: 15px;
+    padding-left: 10px;
 }
 .header__info{
     width: 1200px;
@@ -60,6 +61,7 @@ input{
 .form__btn{
     height: 60px;
     margin: 20px 0 50px 0;
+    margin-bottom: 0;
     font-size: 22px;
 }
 .form__link{
