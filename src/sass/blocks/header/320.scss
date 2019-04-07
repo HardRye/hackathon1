@@ -1,8 +1,9 @@
 header{
-    background-color:$bgc;
+    background-color: $bgc;
     background-image: url(../images/header/bg_mobile@1x.png);
     background-position: center, center;
     background-size: cover, 100%;
+    margin: 0 auto;
 }
 .header{
     width: 320px;
@@ -18,7 +19,7 @@ header{
 .header__text{
     width: 260px;
 }
-.header__text--one{
+.header__title--prev{
     @extend%acrom-regular;
     @extend%text-header-14;
     color: $white;
@@ -26,48 +27,48 @@ header{
     
 }
 
-.header__text--two{
+.header__title{
     @extend%acrom-extrabold;
     @extend%text-header-20;
     color: $skyblue;
     padding-bottom: 24px;
 }
 
-.header__text--three{
+.header__title--after{
     @extend%acrom-regular;
     @extend%text-header-14;
     color: $white;
     padding-bottom: 22px;
 }
-.header__text--four{
+.header__title--invite{
     @extend%acrom-extrabold;
     @extend%text-header-14;
     color: $orange;
     margin-bottom: 15px;
 }
 
-.header__text--five{
+.header__title--place{
     @extend%text-header-20;
 }
-.contact{
+.form{
     width: 260px;
     margin-bottom: 10px;
 }
-.contact__bg{
+.form__bg{
     background-color: $white;
     box-shadow: 0px 12px 70px 0px rgba(121, 139, 188, 0.48);
 }
-.contact__info{
+.form__info{
     width: 225px;
     margin: 0 auto;
 }
-.contact__title{
+.form__title{
     @extend%acrom-extrabold;
     @extend%text-header-16;
     text-align: left;
     padding-bottom: 10px;
 }
-.contact__text--one{
+.form__text{
     @extend%acrom-regular;
     @extend%text-header-13;
     text-align: left;
@@ -82,11 +83,11 @@ input{
     @extend%text-header-14;
     color: $grey-input;
 }
-.contact__btn{
+.form__btn{
     margin: 15px 0 25px 0;
     @extend%btn;
 }
-.contact__text--two{
+.form__link{
     display: block;
     @extend%acrom-regular;
     @extend%text-header-13;

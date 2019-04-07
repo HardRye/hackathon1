@@ -14,37 +14,37 @@ background-image: url(../images/header/bg_desktop@1x.png);
 .header__text{
     width: 700px;
 }
-.header__text--one{
+.header__title--prev{
     font-size: 20px;
 }
-.header__text--two{
+.header__title{
     font-size: 60px;
     padding-bottom: 55px;
 }
-.header__text--three{
+.header__title--after{
     font-size: 35px;
     padding-bottom: 50px;
 }
-.header__text--four{
+.header__title--invite{
     font-size: 29.21px;
 }
-.header__text--five{
+.header__title--place{
     font-size: 55px;
     padding-top: 30px;
 }
-.contact{
+.form{
     width: 460px;
 }
-.contact__info{
+.form__info{
     width: 390px;
 }
-.contact__title{
+.form__title{
     font-size: 33px;
     text-align: left;
     padding-bottom: 30px;
     padding-top: 40px;
 }
-.contact__text--one{
+.form__text{
     font-size: 18px;
     text-align: left;
 }
@@ -56,11 +56,11 @@ input{
     margin: 20px 0;
     font-size: 18px;
 }
-.contact__btn{
+.form__btn{
     height: 60px;
     margin: 20px 0 50px 0;
 }
-.contact__text--two{
+.form__link{
     padding-top: 10px;
     font-size: 16.67px;
 }
