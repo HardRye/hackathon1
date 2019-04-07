@@ -1,11 +1,12 @@
 .footer {
    position: relative;
-   height: 479px;
-   background-image: url("../images/footer/footer-image.png");
+   display: flex;
+   height: 490px;
+   background-image: url("../images/footer/footer.png");
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
-   justify-content: stretch;
+   flex-wrap: wrap;
 }
 
 .footer--button {
@@ -13,21 +14,33 @@
     height: 35px;
     background-color: transparent;
     background-repeat: no-repeat;
+    border:none;
     border-bottom: 3px solid $skyblue;
-    cursor: pointer;
+    cursor: pointer; 
     @extend %acrom-extrabold;
     color: $skyblue;
     font-size: 20px;
     padding: 2px;
     text-transform: uppercase;
-}
+    outline: none;
+    margin: 60px auto 320px;
+    align-items: flex-start;
 
-.footer-text{
-    vertical-align: bottom;
-    margin: 0 auto;
-    padding-bottom: 40px;
+    &:hover, &:focus {
+    color: $orange;  
+    border-color: $orange;
+    }
 }
 
 .logo {
-    padding-bottom: 15px;
+    margin: 0 auto;
+    display: block;
+    width: 100px;
+    height:35px;
+}
+
+.footer-secondary-text{
+    padding: 0;
+    @extend %acrom-regular;
+    color: $grey-bg2;
 }
