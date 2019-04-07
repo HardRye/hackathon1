@@ -4,6 +4,7 @@ header {
   background-position: center, center;
   background-size: cover, 100%;
   margin: 0 auto;
+  margin-bottom: 35px;
 }
 
 .header {
@@ -102,8 +103,15 @@ input {
 .form__btn {
   margin-top: 18px;
   @extend%btn;
-}
 
+&:focus {
+    box-shadow: 0px 2px 10px 0px #ff6b08, 0px -2px 10px 0px #ff6b08;
+}
+&:hover {
+    background-color: $skyblue;
+    box-shadow: 0px 2px 10px 0px $skyblue, 0px -2px 10px 0px $skyblue;
+}
+}
 .form__link {
   display: block;
   @extend%acrom-regular;
