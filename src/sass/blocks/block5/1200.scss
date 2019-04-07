@@ -1,6 +1,10 @@
 @media (min-width: 1200px) {
 
   .block5 {
+    &__title {
+      padding-left: 0;
+    }
+
     &__wrapper { 
       justify-content: space-between;
       flex-direction: row;
@@ -39,7 +43,7 @@
           top: -50px;
         }
         
-        background-position: calc(100% - 20px) calc(100% - 40px);
+        background-position: calc(100% - 50px) calc(100% - 80px);
 
         // &--first { 
         //   background-position: calc(100% - 20px) bottom;

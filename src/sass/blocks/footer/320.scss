@@ -2,11 +2,12 @@
    position: relative;
    display: flex;
    height: 490px;
-   background-image: url("../images/footer/footer.png");
+   background: url("../images/footer/footer.png"), #101c3b;
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
    flex-wrap: wrap;
+   padding-bottom: 36px;
 }
 
 .footer--button {
@@ -23,7 +24,7 @@
     padding: 2px;
     text-transform: uppercase;
     outline: none;
-    margin: 60px auto 320px;
+    margin: 60px auto 300px;
     align-items: flex-start;
 
     &:hover, &:focus {
@@ -36,7 +37,8 @@
     margin: 0 auto;
     display: block;
     width: 100px;
-    height:35px;
+    height: 35px;
+    margin-bottom: 10px;
 }
 
 .footer-secondary-text{
@@ -44,3 +46,6 @@
     @extend %acrom-regular;
     color: $grey-bg2;
 }
+
+
+ 

@@ -5,6 +5,7 @@
     text-transform: none;
     margin-bottom: 30px;
     max-width: 200px;
+    padding-left: 16px;
   }
 
   &__article-title {
@@ -41,7 +42,7 @@
   }
 
   &__partners-title {
-    padding-left: 16px;
+    margin-left: 16px;
   }
 }
 
@@ -49,6 +50,10 @@
 // AWARDS STYLES
 .block5__awards {
   order: -1;
+
+  &-title {
+    margin-left: 16px;
+  }
 }
 
 .block5__awards-item {
