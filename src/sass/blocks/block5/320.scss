@@ -1,8 +1,10 @@
 .block5 {
+  margin-bottom: 40px;
 
   &__title {
     text-transform: none;
     margin-bottom: 30px;
+    max-width: 200px;
   }
 
   &__article-title {
@@ -75,31 +77,25 @@
   background-color: $white;
   padding-top: 40px;
   padding-left: 15px;
-  padding-right: 20px;
+  padding-right: 20px; 
   z-index: 0;
-}
 
-.block5__awards-image {
-  position: absolute; 
-  content: '';
-  bottom: 30px;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-position: center bottom; 
   background-repeat: no-repeat;
 
   &--first {
     background-image: url(../images/block5/award1_320@1x.png);
+    background-position: 42% calc(100% - 24px);
   }
 
   &--second {
     background-image: url(../images/block5/award2_320@1x.png);
+    background-position: 42% calc(100% - 24px);
   }
 
   &--third {
     background-image: url(../images/block5/award3_320@1x.png);
-  }
+    background-position: center calc(100% - 24px);
+  } 
 }
 
 .block5__awards-subtitle {
@@ -121,47 +117,46 @@
 }
 
 .block5__awards-underlay {
-    position: absolute;
-    top: 28px;
-    left: -20px;  
-    display: block;
-    content: "";
-    width: 225px;
-    height: 457px;
-    background-color: $grey-bg2;
-    z-index: -1;
+  position: absolute;
+  top: 28px;
+  left: -20px;  
+  display: block;
+  content: "";
+  width: 225px;
+  height: 457px;
+  background-color: $grey-bg2;
+  z-index: -1;
 
-    &--first {
-      height: 408px;
-    }
-  }  
-
-  .block5__awards-overlay {
-    position: absolute;
-    top: 24px;
-    left: -13px;
-    width: 60px;
-    height: 2px;
-    background-color: $skyblue;
-    z-index:  2;
+  &--first {
+    height: 408px;
   }
+}  
+
+.block5__awards-overlay {
+  position: absolute;
+  top: 24px;
+  left: -13px;
+  width: 60px;
+  height: 2px;
+  background-color: $skyblue;
+  z-index: 2;
+}
 // AWARDS STYLES END
 
 
 // TENDER STYLES 
-.block5__tender {
-  display: flex;
-  flex-direction: column;
+.block5__tender { 
   margin-bottom: 40px;
 
   background-image: url(../images/block5/UN_logo_320@1x.png);
   background-position: center top;
   background-repeat: no-repeat;
 }
-
+ 
 .block5__tender-subtitle {
   @extend %acrom-extrabold;
   @extend %text2430;
+  text-transform: uppercase;
   margin-bottom: 16px;
 }
 

@@ -1,5 +1,47 @@
 @media (min-width: 768px) {
 
+  .block5 {
+    margin-bottom: 40px;
 
- 
+    &__title {  
+      max-width: 500px;
+      padding-left: 64px;
+      margin-bottom: 34px;
+    }
+
+    &__article-title {
+      margin-bottom: 40px;
+    }
+  }
+
+
+  .block5__awards-title {
+    margin-left: 64px;
+    margin-bottom: 38px;
+  }
+
+  .block5__awards-list {
+    display: flex;
+  }
+
+  .block5__awards-item--first {
+    height: 465px;
+  }
+
+  .block5__awards-underlay--first {
+    height: 457px;
+  }
+
+  .block5__tender {
+    max-width: 364px;
+    margin: 0 auto;
+
+    background-position: right top;
+  }
+
+  .block5__partners {
+    max-width: 640px;
+    margin: 0 auto;
+  }
+
 }
