@@ -1,67 +1,84 @@
 @media (min-width: 1200px) {
-.header{
-width: 1200px;
-background-image: url(../images/header/bg_desktop@1x.png);
-}
-.header__logo{
+  .header {
+    width: 1200px;
+    background-image: url(../images/header/bg_desktop@1x.png);
+  }
+
+  .header__logo {
     padding-left: 15px;
-}
-.header__info{
+  }
+
+  .header__info {
     width: 1200px;
     display: flex;
     justify-content: space-around;
-}
-.header__text{
+  }
+
+  .header__text {
     width: 700px;
-}
-.header__title--prev{
+  }
+
+  .header__title--prev {
     font-size: 20px;
-}
-.header__title{
+  }
+
+  .header__title {
     font-size: 60px;
     padding-bottom: 55px;
-}
-.header__title--after{
+  }
+
+  .header__title--after {
     font-size: 35px;
     padding-bottom: 50px;
-}
-.header__title--invite{
+  }
+
+  .header__title--invite {
     font-size: 29.21px;
-}
-.header__title--place{
+  }
+
+  .header__title--place {
     font-size: 55px;
     padding-top: 30px;
-}
-.form{
+  }
+
+  .form {
     width: 460px;
-}
-.form__info{
+  }
+
+  .form__info {
     width: 390px;
-}
-.form__title{
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+
+  .form__title {
     font-size: 33px;
     text-align: left;
     padding-bottom: 30px;
-    padding-top: 40px;
-}
-.form__text{
+  }
+
+  .form__text {
     font-size: 18px;
     text-align: left;
-}
-.input{
+  }
+
+  .input {
     width: 390px;
-}
-input{
+  }
+
+  input {
     height: 60px;
     margin: 20px 0;
     font-size: 18px;
-}
-.form__btn{
+  }
+
+  .form__btn {
     height: 60px;
-    margin: 20px 0 50px 0;
-}
-.form__link{
+    margin-top: 20px;
+  }
+
+  .form__link {
     padding-top: 10px;
     font-size: 16.67px;
-}
+  }
 }
