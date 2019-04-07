@@ -1,5 +1,27 @@
 @media (min-width: 1200px) {
 
+  .block2 {
+    padding-top: 86px;
+    padding-bottom: 100px;
+    margin-bottom: 90px;
 
- 
+    &__list {
+      margin-bottom: 46px;
+    }
+
+    &__title {
+      max-width: 1050px;
+      margin-bottom: 104px;
+
+    }
+
+    &__list-text {
+      letter-spacing: -0.2px;
+    }
+
+    &__list-element {
+      flex-basis: 350px;
+      height: 276px;
+    }
+  }
 }
