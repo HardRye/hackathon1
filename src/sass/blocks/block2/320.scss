@@ -98,11 +98,11 @@
   height: 106px;
   border: none;
   transition: 200ms;
+  cursor: pointer;
 
-
-&:hover {
-  background-color: $skyblue;
-  box-shadow: 0px 2px 10px 0px $skyblue, 0px -2px 10px 0px $skyblue;
-  transition: 200ms;
-}
+  &:hover, &:focus {
+    background-color: $skyblue;
+    box-shadow: 0px 2px 10px 0px $skyblue, 0px -2px 10px 0px $skyblue;
+    transition: 200ms;
+  }
 }
