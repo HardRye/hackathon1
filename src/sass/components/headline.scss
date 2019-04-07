@@ -1,0 +1,24 @@
+.headline {
+  @extend %text-section-title;
+  @extend %acrom-extrabold;
+  color: $subblack; 
+  text-transform: uppercase; 
+
+  &::before, &::after {
+    @extend %text-section-title;
+    @extend %acrom-extrabold;
+    color: $subblack; 
+    text-transform: uppercase; 
+    background-color: inherit;
+  } 
+
+  &::before {
+    content: "\005b  "; 
+    font-size: inherit; 
+  }
+
+  &::after{
+    content: " \005d";
+    font-size: inherit;
+  }
+}

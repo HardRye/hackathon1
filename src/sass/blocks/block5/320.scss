@@ -1,0 +1,172 @@
+.block5 {
+
+  &__title {
+    text-transform: none;
+    margin-bottom: 30px;
+  }
+
+  &__article-title {
+    text-transform: none; 
+    background-color: $grey-bg;
+    display: inline-block;
+    margin-bottom: 24px;
+  }
+
+  &__partners .headline, 
+  &__tender .headline, 
+  &__awards .headline {
+    @extend %text1621;
+
+    &::before, &::after {
+      @extend %text1621;
+    }
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__partners-list {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+ 
+  &__partners-item {
+    margin-bottom: 20px;
+  }
+
+}
+
+
+// AWARDS STYLES
+.block5__awards {
+  order: -1;
+}
+
+.block5__awards-item {
+  position: relative;
+  box-shadow: 0px 15px 32px 0px rgba(0, 0, 0, 0.16);
+  width: 225px;
+  height: 465px;
+  margin: 0 auto;
+  margin-bottom: 60px; 
+
+  &--first {
+    height: 415px;
+  }
+  
+  &::before {
+    @extend %montserrat-bold;
+    @extend %text-counter-b5; 
+    color: $grey-bg;
+    z-index: -1;
+  }
+
+}
+
+.block5__awards-content {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: $white;
+  padding-top: 40px;
+  padding-left: 15px;
+  padding-right: 20px;
+  z-index: 0;
+}
+
+.block5__awards-image {
+  position: absolute; 
+  content: '';
+  bottom: 30px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center bottom; 
+  background-repeat: no-repeat;
+
+  &--first {
+    background-image: url(../images/block5/award1_320@1x.png);
+  }
+
+  &--second {
+    background-image: url(../images/block5/award2_320@1x.png);
+  }
+
+  &--third {
+    background-image: url(../images/block5/award3_320@1x.png);
+  }
+}
+
+.block5__awards-subtitle {
+  @extend %acrom-extrabold;
+  @extend %text-article-title;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.block5__awards-text {
+  @extend %acrom-regular;
+  @extend %text1421;
+  color: $grey-text;
+}
+
+.block5__awards-text-bold {
+  @extend %acrom-extrabold;
+  color: $black;
+}
+
+.block5__awards-underlay {
+    position: absolute;
+    top: 28px;
+    left: -20px;  
+    display: block;
+    content: "";
+    width: 225px;
+    height: 457px;
+    background-color: $grey-bg2;
+    z-index: -1;
+
+    &--first {
+      height: 408px;
+    }
+  }  
+
+  .block5__awards-overlay {
+    position: absolute;
+    top: 24px;
+    left: -13px;
+    width: 60px;
+    height: 2px;
+    background-color: $skyblue;
+    z-index:  2;
+  }
+// AWARDS STYLES END
+
+
+// TENDER STYLES 
+.block5__tender {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+
+  background-image: url(../images/block5/UN_logo_320@1x.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.block5__tender-subtitle {
+  @extend %acrom-extrabold;
+  @extend %text2430;
+  margin-bottom: 16px;
+}
+
+.block5__tender-text {
+  @extend %acrom-regular;
+  @extend %text1421;
+  color: $grey-text3;
+} 

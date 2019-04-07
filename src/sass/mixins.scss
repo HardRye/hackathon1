@@ -1,0 +1,5 @@
+@mixin orange-button ($size, $line-height, $verticall-padding, $side-padding) { 
+  font-size: $size;
+  line-height: $line-height;
+  padding: $verticall-padding $side-padding;
+}

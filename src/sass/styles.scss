@@ -2,12 +2,13 @@
    Import partials below
 */
 @import "./normalize";
+ 
 
-//  some global tag settings
-@import "./base";
-
-// importing global variables
+@import "./fonts";
+ 
 @import "./variables";
+@import "./placeholders";
+@import "./mixins";
 
 // importing components - general classes
 @import "./components/comp-style";

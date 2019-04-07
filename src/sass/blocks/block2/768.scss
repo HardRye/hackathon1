@@ -1,5 +1,37 @@
 @media (min-width: 768px) {
+  .block2 {
+    padding-bottom: 60px;
+    margin-bottom: 52px;
 
+    &__title {
+      max-width: 532px;
+      letter-spacing: -2px;
+      margin-bottom: 50px;
+    }
 
- 
+    &__list {
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: flex-start;
+      margin-bottom: 40px;
+    }
+
+    &__list-element {
+      margin-bottom: 0;
+    }
+
+    &__list-text {
+      letter-spacing: -0.2px;
+    }
+
+    &__button {
+      width: 530px;
+      height: 70px;
+    }
+    
+
+  }
+  #okno{
+    max-width: 620px;
+  }
 }

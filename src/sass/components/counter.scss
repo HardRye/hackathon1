@@ -1,0 +1,18 @@
+.counter-list {
+  counter-reset: count-box 0;
+}
+
+.counter-list-item { 
+  counter-increment: count-box;
+  position: relative;
+
+  &:before {
+    display: block;
+    content: "0"counter(count-box);
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translateY(-60%);
+    color: $black;
+  }
+}
