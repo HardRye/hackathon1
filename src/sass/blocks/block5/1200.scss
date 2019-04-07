@@ -29,9 +29,30 @@
       }
 
       &-item {
+        height: auto;
         flex-basis: 33.3333%;
-        box-shadow: none;
-      }
+        box-shadow: none; 
+
+        &:before {
+          z-index: 1;
+          transform: rotate(-90deg);
+          top: -50px;
+        }
+        
+        background-position: calc(100% - 20px) calc(100% - 40px);
+
+        // &--first { 
+        //   background-position: calc(100% - 20px) bottom;
+        // }
+      
+        // &--second {
+        //   background-position: right + 10px bottom;
+        // }
+      
+        // &--third {
+        //   background-position: right bottom;
+        // }  
+      } 
 
       &-underlay, &-overlay {
         display: none;

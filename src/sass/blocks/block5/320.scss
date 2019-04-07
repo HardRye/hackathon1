@@ -51,14 +51,29 @@
 .block5__awards-item {
   position: relative;
   box-shadow: 0px 15px 32px 0px rgba(0, 0, 0, 0.16);
+  background-color: $white;
   width: 225px;
   height: 465px;
   margin: 0 auto;
   margin-bottom: 60px; 
 
+  background-repeat: no-repeat;
+
   &--first {
     height: 415px;
+    background-image: url(../images/block5/award1_320@1x.png);
+    background-position: 42% calc(100% - 24px);
   }
+
+  &--second {
+    background-image: url(../images/block5/award2_320@1x.png);
+    background-position: 42% calc(100% - 24px);
+  }
+
+  &--third {
+    background-image: url(../images/block5/award3_320@1x.png);
+    background-position: center calc(100% - 24px);
+  }  
   
   &::before {
     @extend %montserrat-bold;
@@ -74,28 +89,11 @@
   display: block;
   width: 100%;
   height: 100%;
-  background-color: $white;
+  // background-color: $white;
   padding-top: 40px;
   padding-left: 15px;
   padding-right: 20px; 
   z-index: 0;
-
-  background-repeat: no-repeat;
-
-  &--first {
-    background-image: url(../images/block5/award1_320@1x.png);
-    background-position: 42% calc(100% - 24px);
-  }
-
-  &--second {
-    background-image: url(../images/block5/award2_320@1x.png);
-    background-position: 42% calc(100% - 24px);
-  }
-
-  &--third {
-    background-image: url(../images/block5/award3_320@1x.png);
-    background-position: center calc(100% - 24px);
-  } 
 }
 
 .block5__awards-subtitle {

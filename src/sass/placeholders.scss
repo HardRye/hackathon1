@@ -158,6 +158,11 @@
 %text-counter-b5 {
   font-size: 70px;
   line-height: 1.2;
+
+  @media (min-width: 1200px) {
+    font-size: 30px;
+    line-height: 21px;
+  }
 }
 
 %text-header-20 {
