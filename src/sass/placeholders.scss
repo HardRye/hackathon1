@@ -109,11 +109,12 @@
     line-height: 1.364;
   }
 
-  @media (min-height: 1200px) {
+  @media (min-width: 1200px) {
     font-size: 30px;
     line-height: 1.167;
   }
 }
+
 %text-section-p {  
   font-size: 14px;
   line-height: 1.571;
