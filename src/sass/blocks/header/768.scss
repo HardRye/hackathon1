@@ -1,5 +1,41 @@
 @media (min-width: 768px) {
-
-
- 
+.header{
+    width: 620px;
+    background-image: url(../images/header/bg_tablet@1x.png);
+}
+.header__logo{
+padding: 30px 0;
+}
+.header__info{
+    width:620px;
+}
+.header__text{
+    width: 600px;
+}
+.header__title{
+    font-size: 40px;
+}
+.header__title--after{
+    font-size: 18px;
+}
+.header__title--invite{
+    font-size: 18px;
+}
+.header__title--place{
+    font-size: 40px;
+}
+.form{
+    width: 620px;
+}
+.form__title{
+    font-size: 24px;
+    text-align: center;
+}
+.form__text{
+    padding-bottom: 10px;
+    text-align: center;
+}
+.form__info{
+    width: 468px;
+}
 }
