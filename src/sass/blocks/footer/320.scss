@@ -1,0 +1,46 @@
+.footer {
+   position: relative;
+   display: flex;
+   height: 490px;
+   background-image: url("../images/footer/footer.png");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   flex-wrap: wrap;
+}
+
+.footer--button {
+    width: 220px;
+    height: 35px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border:none;
+    border-bottom: 3px solid $skyblue;
+    cursor: pointer; 
+    @extend %acrom-extrabold;
+    color: $skyblue;
+    font-size: 20px;
+    padding: 2px;
+    text-transform: uppercase;
+    outline: none;
+    margin: 60px auto 320px;
+    align-items: flex-start;
+
+    &:hover, &:focus {
+    color: $orange;  
+    border-color: $orange;
+    }
+}
+
+.logo {
+    margin: 0 auto;
+    display: block;
+    width: 100px;
+    height:35px;
+}
+
+.footer-secondary-text{
+    padding: 0;
+    @extend %acrom-regular;
+    color: $grey-bg2;
+}
