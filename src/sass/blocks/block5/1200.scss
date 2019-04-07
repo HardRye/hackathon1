@@ -1,5 +1,48 @@
 @media (min-width: 1200px) {
 
+  .block5 {
+    &__wrapper { 
+      justify-content: space-between;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    &__tender {
+      flex-basis: 390px;
+      max-width: 100%;
+      margin: 0;
+      margin-bottom: 56px;
+    }
+
+    &__partners {
+      flex-basis: 652px;
+      max-width: 100%;
+      margin: 0;
+    }
+
+    &__awards {
+      order: 0;
+      flex-basis: 100%;
+
+      &-title {
+        margin-left: 0;
+      }
+
+      &-item {
+        flex-basis: 33.3333%;
+        box-shadow: none;
+      }
+
+      &-underlay, &-overlay {
+        display: none;
+      }
+
+      &-content {
+        padding: 0;
+        max-width: 220px ;
+      }
+    }
+  }
 
  
 }
