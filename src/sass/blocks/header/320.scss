@@ -1,5 +1,5 @@
 header{
-    background-color:#181c27;
+    background-color:$bgc;
     background-image: url(../images/header/bg_mobile@1x.png);
     background-position: center, center;
     background-size: cover, 100%;
@@ -56,10 +56,6 @@ header{
 .contact__bg{
     background-color: $white;
     box-shadow: 0px 12px 70px 0px rgba(121, 139, 188, 0.48);
-}
-.contact__text--box{
-width: 255px;
-padding: 20px 20px 15px 20px;
 }
 .contact__info{
     width: 225px;
