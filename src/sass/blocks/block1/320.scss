@@ -1,42 +1,42 @@
 .block01 {
-    padding-top: 30px;
-    padding-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .block01--title {
-    padding-bottom: 30px;
-    text-transform: none;
-    @extend %acrom-bold;
-    font-size: 20px;
-    line-height: 1.5;
-    letter-spacing: -1px;
+  padding-bottom: 30px;
+  text-transform: none;
+  @extend %acrom-bold;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: -1px;
 }
 
 .block01--list {
-    @extend %acrom-regular;
+  @extend %acrom-regular;
 }
 
-.block01--items{
-    list-style:none;  
-    position: relative; 
+.block01--items {
+  list-style: none;
+  position: relative;
 }
 
 .block01--item {
-    position: relative;
-    padding-left: 30px;  
-    padding-bottom: 10px;
-    font-size: 14px;
-    line-height: 1.25;
+  position: relative;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.25;
 
   &:before {
     position: absolute;
-    content: "\2192"; 
-    color:$skyblue;
-    font-weight:bold;
+    content: "\2192";
+    color: $skyblue;
+    font-weight: bold;
     display: block;
     width: 17px;
     height: 15px;
-    margin-bottom:2px;
+    margin-bottom: 2px;
     left: 0;
-} 
+  }
 }
