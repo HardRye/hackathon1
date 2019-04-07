@@ -1,0 +1,33 @@
+.footer {
+   position: relative;
+   height: 479px;
+   background-image: url("../images/footer/footer-image.png");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   justify-content: stretch;
+}
+
+.footer--button {
+    width: 220px;
+    height: 35px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border-bottom: 3px solid $skyblue;
+    cursor: pointer;
+    @extend %acrom-extrabold;
+    color: $skyblue;
+    font-size: 20px;
+    padding: 2px;
+    text-transform: uppercase;
+}
+
+.footer-text{
+    vertical-align: bottom;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.logo {
+    padding-bottom: 15px;
+}
