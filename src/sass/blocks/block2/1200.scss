@@ -23,12 +23,29 @@
       flex-basis: 350px;
       height: 276px;
     }
+    
+  }
+  .form {
+    width: 620px;
+  }
 
-    &__button {
-      text-transform: none;
-      width: 812px;
-      height: 110px;
-      @include orange-button (25px, 1.2, 20px, 20px);
-    }
+  .form__title {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .form__text {
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+  .form__btn {
+    margin-top: 20px;
+  }
+
+  .form__info {
+    width: 468px;
+    padding-top: 30px;
+    padding-bottom: 40px;
   }
 }
